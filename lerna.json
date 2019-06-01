@@ -2,5 +2,8 @@
   "lerna": "3.13.4",
   "packages": ["packages/*"],
   "version": "independent",
-  "hoist": false
+  "hoist": false,
+  "publishConfig": {
+    "access": "public"
+  }
 }
