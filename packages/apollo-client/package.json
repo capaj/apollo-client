@@ -1,14 +1,13 @@
 {
-  "name": "apollo-client",
-  "private": true,
-  "version": "2.6.0",
+  "name": "@capaj/apollo-client",
+  "version": "2.6.1",
   "description": "A simple yet functional GraphQL client.",
   "main": "./lib/bundle.cjs.js",
   "module": "./lib/bundle.esm.js",
   "typings": "./lib/index.d.ts",
   "sideEffects": false,
   "scripts": {
-    "prepare": "npm run lint && npm run build",
+    "prepare": "npm run build",
     "coverage": "jest --coverage",
     "dev": "./scripts/dev.sh",
     "deploy": "./scripts/deploy.sh",
